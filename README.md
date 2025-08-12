@@ -1,6 +1,6 @@
 # Tuxedo Control Center for NixOS
 
-[![Build](https://github.com/sund3RRR/tuxedo-nixos/actions/workflows/build.yml/badge.svg)](https://github.com/sund3RRR/tuxedo-nixos/actions/workflows/build.yml)
+[![Build](https://github.com/Red-Flake/tuxedo-nixos/actions/workflows/build.yml/badge.svg)](https://github.com/Red-Flake/tuxedo-nixos/actions/workflows/build.yml)
 
 ## Overview
 
@@ -27,7 +27,7 @@ to your `/etc/nixos/configuration.nix`.
 ```nix
 { config, pkgs, ... }:
 let
-  tuxedo = import (builtins.fetchTarball "https://github.com/sund3RRR/tuxedo-nixos/archive/master.tar.gz");
+  tuxedo = import (builtins.fetchTarball "https://github.com/Red-Flake/tuxedo-nixos/archive/master.tar.gz");
 in {
 
  # ...
@@ -57,7 +57,7 @@ First enable the module in your `flake.nix`:
 
 	# ...
 
-	tuxedo-nixos.url = "github:sund3RRR/tuxedo-nixos";
+	tuxedo-nixos.url = "github:Red-Flake/tuxedo-nixos";
   };
 
   outputs = { self, nixpkgs, tuxedo-nixos }: {

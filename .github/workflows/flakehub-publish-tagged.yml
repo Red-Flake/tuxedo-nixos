@@ -23,6 +23,6 @@ jobs:
       - uses: "DeterminateSystems/flakehub-push@main"
         with:
           visibility: "public"
-          name: "sund3RRR/tuxedo-nixos"
+          name: "Red-Flake/tuxedo-nixos"
           tag: "${{ inputs.tag }}"
           include-output-paths: true

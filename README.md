@@ -1,5 +1,7 @@
 # Tuxedo Control Center for NixOS
 
+<br>
+
 ## Overview
 
 This repository provides a Nix derivation for the Tuxedo Control
@@ -15,10 +17,14 @@ things. Without this app, the Tuxedo laptops default to very noisy fan
 control settings. It lives on
 [Github](https://github.com/tuxedocomputers/tuxedo-control-center).
 
+<br>
+
 ## Usage
 
 To enable Tuxedo Control Center, add the module from this repository
 to your `/etc/nixos/configuration.nix`.
+
+<br>
 
 ### Option 1: Stable Nix
 
@@ -40,11 +46,15 @@ in {
 }
 ```
 
+<br>
+
 ### Option 2: Nix Flake
 
 This repository is a [Nix Flake](https://nixos.wiki/wiki/Flakes). As
 such, it exports its module in a way that makes it somewhat convenient
 to use in your Flakes-enabled NixOS configuration.
+
+<br>
 
 First enable the module in your `flake.nix`:
 
@@ -79,11 +89,15 @@ First enable the module in your `flake.nix`:
 }
 ```
 
+<br>
+
 Then enable the module in `configuration.nix`:
 
 ```nix
   hardware.tuxedo-control-center.enable = true;
 ```
+
+<br>
 
 ## Updating
 

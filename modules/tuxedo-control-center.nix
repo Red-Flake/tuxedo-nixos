@@ -62,7 +62,7 @@ in
           services."tccd-sleep".wantedBy = [ "sleep.target" ];
         };
 
-        meta.maintainers = with lib.maintainers; [ sund3RRR ];
+        meta.maintainers = with lib.maintainers; [ Mag1cByt3s ];
       })
 
       (lib.mkIf (lib.elem "nvidia" config.services.xserver.videoDrivers) {

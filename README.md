@@ -1,7 +1,5 @@
 # Tuxedo Control Center for NixOS
 
-[![Build](https://github.com/Red-Flake/tuxedo-nixos/actions/workflows/build.yml/badge.svg)](https://github.com/Red-Flake/tuxedo-nixos/actions/workflows/build.yml)
-
 ## Overview
 
 This repository provides a Nix derivation for the Tuxedo Control

@@ -205,7 +205,7 @@ stdenv.mkDerivation {
     homepage = "https://github.com/tuxedocomputers/tuxedo-control-center/";
     license = licenses.gpl3Plus;
     mainProgram = "tuxedo-control-center";
-    maintainers = [ maintainers.sund3RRR ];
+    maintainers = [ maintainers.Mag1cByt3s ];
     platforms = [ "x86_64-linux" ];
   };
 }
